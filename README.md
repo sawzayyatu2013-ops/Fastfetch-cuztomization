@@ -38,3 +38,19 @@ You need `fastfetch` installed on your system.
 If you are on Arch Linux:
 ```bash
 sudo pacman -S fastfetch
+Copy and paste this entire block into your terminal. It will download the files to a temporary folder, back up your current config, install the new one, and clean up after itself.
+bash
+
+```bash
+git clone https://github.com/sawzayyatu2013-ops/Fastfetch-cuztomization.git /tmp/ff-config && cd /tmp/ff-config && chmod +x install.sh && ./install.sh && cd ~ && rm -rf /tmp/ff-config
+
+The Manual Way
+
+If you prefer to install it manually:
+```bash
+    Clone the repository:
+    Copy and paste this into your terminal:
+    bash
+
+    git clone https://github.com/sawzayyatu2013-ops/Fastfetch-cuztomization.git
+
